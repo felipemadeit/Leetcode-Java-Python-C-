@@ -26,7 +26,7 @@ class DifferSum  {
 
             for (int k = 0; k < xStr.length(); k++) {
 
-                if (times.containsKey(String.valueOf(k))) {
+                if (times.containsKey(xStr.charAt(k))) {
                     searched = false;
                     break;
                 } else {
